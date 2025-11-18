@@ -1,11 +1,5 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 title: Sujal Chauhan, PMP®
-description: Project Manager | Business Process Optimization | Cloud Transformation
-
-# The / helps the browser find the file in the root folder
-logo: /Sujal-Profile.jpg
-
-# This hides the ugly "Download ZIP" buttons
+description: Project Manager | Business Process Optimization | Operational Excellence
 show_downloads: false
-
 google_analytics:
