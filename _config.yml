@@ -2,9 +2,8 @@ theme: jekyll-theme-minimal
 title: Sujal Chauhan, PMP®
 description: Project Manager | Business Process Optimization | Cloud Transformation
 
-# This puts your photo in the sidebar
-logo: /profile.jpg  
-# (Make sure your uploaded photo name matches exactly!)
+# Updated to match your new filename
+logo: Sujal-Profile.jpg
 
 show_downloads: true
 google_analytics:
