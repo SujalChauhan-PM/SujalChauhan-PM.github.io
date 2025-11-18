@@ -1,53 +1,72 @@
 ---
 layout: default
-title: Home
 ---
 
-# Sujal Chauhan, PMP®, CSM®
-**Project Manager | Business Process Optimization | Operational Excellence**
+# 👋 Hi, I'm Sujal Chauhan
+### PMP® | CSM® | Certified Azure Fundamentals
 
-📍 *Kitchener, Ontario, Canada* | 📧 [Email Me](mailto:sujal.chauhan@live.in) | 🔗 [LinkedIn](https://www.linkedin.com/in/sujalchauhan)
-
----
-
-## 👋 About Me
-[cite_start]I am a high-impact Project Manager with over **15 years of experience** specializing in leading complex projects that drive business efficiency, streamline operations, and enhance customer experiences. [cite: 27, 28]
-
-My expertise spans **business transformation**, **IT asset disposition (ITAD)**, and **cross-functional team leadership**. [cite_start]I thrive in fast-paced environments where aligning teams, mitigating risks, and delivering scalable solutions are critical. [cite: 29, 34]
-
-### 🚀 Key Achievements
-* [cite_start]**Cost Reduction:** Led $5M+ projects, optimizing workflows and reducing operational costs by **30%**[cite: 30].
-* [cite_start]**Efficiency:** Improved process automation, cutting administrative workload by **20%**[cite: 31].
-* [cite_start]**Reporting:** Implemented tracking systems that increased reporting accuracy by **35%**[cite: 32].
+> **"I specialize in leading complex projects that drive business efficiency, streamline operations, and enhance customer experiences."**
 
 ---
 
-## 🛠 Core Skills
-* [cite_start]**Methodologies:** Agile (CSM®), Waterfall (PMP®), SDLC [cite: 17, 18, 24]
-* [cite_start]**Tech Stack:** Azure SQL, Microsoft Dynamics 365, Power BI, Salesforce [cite: 8, 22, 16]
-* [cite_start]**Cloud & API:** Azure Cloud Architecture, KYC Verification, API Integration [cite: 9, 10, 43]
-* [cite_start]**Languages:** English, Hindi, Gujarati [cite: 12, 13, 14]
+## 🚀 Executive Summary
+With **15+ years of experience**, I bridge the gap between business goals and technical execution. [cite_start]Based in **Kitchener, Ontario** [cite: 2, 25][cite_start], I have led **$5M+ projects**, reduced operational costs by **30%**[cite: 30], and managed high-stakes digital transformations.
+
+* **Connect:** [LinkedIn](https://www.linkedin.com/in/sujalchauhan) | [Email](mailto:sujal.chauhan@live.in)
+* [cite_start]**Languages:** English (Professional), Hindi, Gujarati [cite: 12, 13, 14]
 
 ---
 
-## 📂 Professional Experience
+## 🛠 Core Competencies
+
+| Project Management | Technical Skills | Domains |
+| :--- | :--- | :--- |
+| Agile (Scrum) & Waterfall | Azure Cloud & SQL | Business Transformation |
+| Risk Mitigation | API Integration | IT Asset Disposition (ITAD) |
+| Stakeholder Management | Power BI & Dynamics 365 | Banking & Telecom |
+| Change Management | Salesforce | KYC & Compliance |
+
+---
+
+## 💼 Professional Experience
 
 ### **Project Manager** | BigLop
-*Mississauga, ON | March 2025 - Present*
-* [cite_start]Led full-cycle ERP implementation to replace legacy banking platforms. [cite: 42]
-* [cite_start]Migrated 12 business-critical applications to Microsoft Azure with **99.9% uptime**. [cite: 43]
-* [cite_start]Reduced KYC verification cycle time by **45%** using Azure Logic Apps. [cite: 45]
+*Mississauga, Ontario | [cite_start]March 2025 - Present* [cite: 39]
+
+Leading digital transformation initiatives for banking operations.
+* [cite_start]**Cloud Migration:** Migrated 12 business-critical applications to **Microsoft Azure** (ERP, reporting, compliance) with **99.9% uptime** and zero production downtime[cite: 43].
+* [cite_start]**Process Automation:** Integrated KYC workflows using **Azure Logic Apps**, automating document verification and reducing cycle time by **45%**[cite: 45].
+* [cite_start]**Governance:** Established an Agile delivery framework that improved team velocity by **25%** and ensured on-time delivery of 3 major releases[cite: 47].
+* [cite_start]**Analytics:** Built Power BI dashboards for C-suite executives, reducing manual reporting efforts by **40 hours/month**[cite: 46].
 
 ### **Project Manager** | Quantum Lifecycle Partners LP
-*Brampton, ON | April 2021 - Feb 2025*
-* [cite_start]Oversaw the launch of an e-commerce resale platform, driving a **25% increase** in secondary revenue. [cite: 54]
-* [cite_start]Implemented Power BI dashboards, improving forecasting accuracy by **30%**. [cite: 57]
-* [cite_start]Reduced project delivery time by **15-20%** through new governance practices. [cite: 59]
+*Brampton, Ontario | [cite_start]April 2021 - Feb 2025* [cite: 52]
+
+Managed end-to-end IT Asset Disposition (ITAD) projects and e-commerce growth.
+* [cite_start]**Revenue Growth:** Oversaw the design and launch of an e-commerce platform for refurbished IT assets, driving a **25% increase in secondary revenue**[cite: 54].
+* [cite_start]**Forecasting:** Implemented Power BI dashboards for customer lifecycle visibility, improving revenue forecasting accuracy by **30%**[cite: 57].
+* [cite_start]**Efficiency:** Established governance and milestone tracking that reduced overall project delivery time by **15-20%**[cite: 59].
+* [cite_start]**Integration:** Directed the cross-functional integration of **Microsoft Dynamics 365**, aligning sales, production, and reporting workflows[cite: 55].
+
+### **Technical Support Supervisor** | Teleperformance
+*Toronto, Ontario | [cite_start]Nov 2019 - April 2021* [cite: 63]
+* [cite_start]Supervised a team of 15 agents supporting Apple products; maintained **CSAT scores above 85%**[cite: 65, 72].
+* [cite_start]Reduced average resolution time by **20%** through coaching and process optimization[cite: 68].
 
 ---
 
-## 🎓 Education & Certifications
-* [cite_start]**PMP®** - Project Management Professional [cite: 24]
-* [cite_start]**CSM®** - Certified ScrumMaster [cite: 24]
-* [cite_start]**Microsoft Certified:** Azure Fundamentals [cite: 22]
-* [cite_start]**Bachelor of Business Management (BBM)** - Mangalam School of Management (2013-2016) [cite: 138, 139]
+## 📜 Certifications
+* [cite_start]**Project Management Professional (PMP)®** - Project Management Institute [cite: 24]
+* [cite_start]**Certified ScrumMaster (CSM)®** - Scrum Alliance [cite: 24]
+* [cite_start]**Microsoft Certified: Azure Fundamentals** [cite: 22]
+* [cite_start]**Salesforce for Customer Service** [cite: 16]
+* [cite_start]**Generative AI for Project Managers** [cite: 20]
+
+---
+
+## 🎓 Education
+* **Bachelor of Business Management (BBM)** | [cite_start]Mangalam School of Management (2013-2016) [cite: 139]
+* **Diploma in International Marketing** | [cite_start]Ahmedabad Management Association [cite: 141]
+
+---
+*References available upon request.*
