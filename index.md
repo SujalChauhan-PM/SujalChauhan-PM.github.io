@@ -2,8 +2,11 @@
 layout: default
 ---
 
-# 👋 Hi, I'm Sujal Chauhan
-### PMP® | CSM® | Certified Azure Fundamentals
+<div style="text-align: center;">
+  <img src="Sujal-Profile.jpg" width="180" style="border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <h1>Hi, I’m Sujal Chauhan</h1>
+  <h3>PMP® | CSM® | Certified Azure Fundamentals</h3>
+</div>
 
 > **"I specialize in leading complex projects that drive business efficiency, streamline operations, and enhance customer experiences."**
 
