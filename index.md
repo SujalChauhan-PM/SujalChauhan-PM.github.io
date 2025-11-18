@@ -3,10 +3,12 @@ layout: default
 ---
 
 <div style="text-align: center;">
-  <img src="/Sujal-Profile.jpg" width="180" style="border-radius: 50%; border: 4px solid #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/Sujal-Profile.jpg" width="240" style="border-radius: 50%; border: 5px solid #fff; box-shadow: 0 6px 12px rgba(0,0,0,0.15);">
+  
   <h1 style="margin-bottom: 0;">Hi, I’m Sujal Chauhan</h1>
   <h3 style="margin-top: 10px;">PMP® | CSM® | Project Manager</h3>
-  <p>
+  
+  <p style="font-size: 1.1em;">
     📞 <strong>+1 (647) 667-9819</strong> &nbsp;|&nbsp; 📍 <strong>Kitchener, Ontario, Canada</strong><br>
     <a href="mailto:sujal.chauhan@live.in">Email Me</a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/sujalchauhan">LinkedIn Profile</a>
   </p>
@@ -24,6 +26,7 @@ With **15+ years of experience**, I bridge the gap between business goals and te
 ## 🛠 Skills & Competencies
 
 ### **Technical & Hard Skills**
+
 | Project Management | Tools & Platforms | Methodologies |
 | :--- | :--- | :--- |
 | Scope & Budget Management | Microsoft Azure (Cloud & SQL) | Agile (Scrum) & Waterfall |
@@ -31,6 +34,7 @@ With **15+ years of experience**, I bridge the gap between business goals and te
 | Business Process Optimization | Salesforce & API Integration | IT Asset Disposition (ITAD) |
 
 ### **Soft & Transferable Skills**
+
 | Leadership | Operational Excellence | Communication |
 | :--- | :--- | :--- |
 | Cross-Functional Leadership | Strategic Planning | Stakeholder Management |
@@ -106,31 +110,4 @@ With **15+ years of experience**, I bridge the gap between business goals and te
 
 ### **Carrier Relations Manager** | Bridgevoice Inc
 *India | Jun 2009 - Mar 2010*
-* **Market Research:** Led business case evaluations to identify new partnership opportunities and expand network reach.
-* **Negotiation:** Negotiated and optimized interconnect agreements, ensuring cost-effective routing and improved revenue margins.
-* **Traffic Management:** Monitored traffic flow to ensure optimal performance and revenue growth while maintaining service quality.
-* **Financial Reporting:** Oversaw revenue tracking and reporting for accurate financial performance assessments.
-* **Lead Generation:** Attended industry events to position the company as a competitive player in the international market.
-* **Vendor Relations:** Implemented account management strategies to strengthen relationships with key vendors.
-
----
-
-## 📜 Certifications
-* **PMP® - Project Management Professional** | Project Management Institute
-* **CSM® - Certified ScrumMaster** | Scrum Alliance
-* **Microsoft Certified: Azure Fundamentals** | Microsoft
-* **Salesforce for Customer Service**
-* **Fundamentals of Waterfall Project Management**
-* **SDLC - Software Development Life Cycle (Complete Guide)**
-* **Practical Application of Gen AI for Project Managers**
-
----
-
-## 🎓 Education
-* **Bachelor of Business Management (BBM)** | Mangalam School of Management and Technology (2013-2016)
-* **Diploma in International Marketing** | Ahmedabad Management Association (2013)
-
----
-<div style="text-align: center; font-size: 0.8em; color: #666;">
-  <p>© 2025 Sujal Chauhan. All rights reserved.</p>
-</div>
+* **Market Research:** Led business
