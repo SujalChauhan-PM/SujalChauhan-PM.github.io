@@ -110,4 +110,31 @@ With **15+ years of experience**, I bridge the gap between business goals and te
 
 ### **Carrier Relations Manager** | Bridgevoice Inc
 *India | Jun 2009 - Mar 2010*
-* **Market Research:** Led business
+* **Market Research:** Led business case evaluations to identify new partnership opportunities and expand network reach.
+* **Negotiation:** Negotiated and optimized interconnect agreements, ensuring cost-effective routing and improved revenue margins.
+* **Traffic Management:** Monitored traffic flow to ensure optimal performance and revenue growth while maintaining service quality.
+* **Financial Reporting:** Oversaw revenue tracking and reporting for accurate financial performance assessments.
+* **Lead Generation:** Attended industry events to position the company as a competitive player in the international market.
+* **Vendor Relations:** Implemented account management strategies to strengthen relationships with key vendors.
+
+---
+
+## 📜 Certifications
+* **PMP® - Project Management Professional** | Project Management Institute
+* **CSM® - Certified ScrumMaster** | Scrum Alliance
+* **Microsoft Certified: Azure Fundamentals** | Microsoft
+* **Salesforce for Customer Service**
+* **Fundamentals of Waterfall Project Management**
+* **SDLC - Software Development Life Cycle (Complete Guide)**
+* **Practical Application of Gen AI for Project Managers**
+
+---
+
+## 🎓 Education
+* **Bachelor of Business Management (BBM)** | Mangalam School of Management and Technology (2013-2016)
+* **Diploma in International Marketing** | Ahmedabad Management Association (2013)
+
+---
+<div style="text-align: center; font-size: 0.8em; color: #666;">
+  <p>© 2025 Sujal Chauhan. All rights reserved.</p>
+</div>
