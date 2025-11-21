@@ -337,7 +337,6 @@
             display: flex;
             align-items: center;
             gap: 0.75rem;
-            margin-bottom: 1rem;
         }
 
         .skill-icon {
@@ -350,17 +349,19 @@
             align-items: center;
             justify-content: center;
             font-size: 1.25rem;
+            flex-shrink: 0;
         }
 
         .skill-name {
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             color: var(--text-dark);
         }
 
         .skill-level {
             font-size: 0.85rem;
             color: var(--text-light);
+            margin-top: 0.25rem;
         }
 
         /* Projects Section */
@@ -888,7 +889,10 @@
 
             <div class="hero-image">
                 <div class="profile-card">
-                    <img src="./Sujal-Profile.jpg" alt="Sujal Chauhan" class="profile-img">
+                    <img src="./Sujal-Profile.jpg" alt="Sujal Chauhan" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div style="width: 200px; height: 200px; border-radius: 50%; background: rgba(255,255,255,0.2); display: none; align-items: center; justify-content: center; font-size: 4rem; margin: 0 auto 1rem;">
+                        <i class="fas fa-user"></i>
+                    </div>
                     <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;">
                         <a href="mailto:sujal.chauhan@live.in" class="social-link" title="Email">
                             <i class="fas fa-envelope"></i>
@@ -910,14 +914,77 @@
         <div class="container">
             <div class="section-header">
                 <h2>Core Competencies & Expertise</h2>
-                <p>Comprehensive skill set spanning technical expertise, project leadership, and strategic business acumen</p>
+                <p>Comprehensive skill set spanning project methodologies, technology platforms, and strategic leadership</p>
             </div>
 
             <div class="skills-container">
-                <!-- Project Management & Methodologies -->
+                <!-- Project Management Methodologies -->
                 <div>
                     <h3 class="skills-category-title">
-                        <i class="fas fa-project-diagram"></i> Project Management & Methodologies
+                        <i class="fas fa-project-diagram"></i> Project Management Methodologies
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-sync"></i></div>
+                                <div>
+                                    <div class="skill-name">Agile Framework</div>
+                                    <div class="skill-level">Expert • CSM® Certified</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
+                                <div>
+                                    <div class="skill-name">Scrum</div>
+                                    <div class="skill-level">Expert • Sprint Planning & Retrospectives</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-columns"></i></div>
+                                <div>
+                                    <div class="skill-name">Kanban</div>
+                                    <div class="skill-level">Advanced • Workflow Optimization</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-water"></i></div>
+                                <div>
+                                    <div class="skill-name">Waterfall</div>
+                                    <div class="skill-level">Expert • PMP® Certified</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-blender"></i></div>
+                                <div>
+                                    <div class="skill-name">Hybrid Methodology</div>
+                                    <div class="skill-level">Advanced • Agile-Waterfall Blend</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-route"></i></div>
+                                <div>
+                                    <div class="skill-name">Critical Path Method (CPM)</div>
+                                    <div class="skill-level">Advanced • Schedule Optimization</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technology & Tools -->
+                <div>
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-laptop-code"></i> Technology Stack & Tools
                     </h3>
                     <div class="skills-grid">
                         <div class="skill-card">
@@ -925,7 +992,7 @@
                                 <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
                                 <div>
                                     <div class="skill-name">Microsoft Azure</div>
-                                    <div class="skill-level">Advanced • Certified</div>
+                                    <div class="skill-level">Advanced • Azure Certified</div>
                                 </div>
                             </div>
                         </div>
@@ -933,23 +1000,32 @@
                             <div class="skill-header">
                                 <div class="skill-icon"><i class="fas fa-database"></i></div>
                                 <div>
-                                    <div class="skill-name">Azure SQL & Cloud Storage</div>
+                                    <div class="skill-name">SQL & Azure SQL</div>
                                     <div class="skill-level">Advanced</div>
                                 </div>
                             </div>
                         </div>
                         <div class="skill-card">
                             <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                                <div class="skill-icon"><i class="fas fa-cloud"></i></div>
                                 <div>
-                                    <div class="skill-name">Power BI & Analytics</div>
-                                    <div class="skill-level">Advanced</div>
+                                    <div class="skill-name">Cloud Storage</div>
+                                    <div class="skill-level">Advanced • Azure Blob & File Storage</div>
                                 </div>
                             </div>
                         </div>
                         <div class="skill-card">
                             <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                                <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                                <div>
+                                    <div class="skill-name">Power BI</div>
+                                    <div class="skill-level">Advanced • Dashboards & Analytics</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-user-shield"></i></div>
                                 <div>
                                     <div class="skill-name">Dynamics 365 & CRM</div>
                                     <div class="skill-level">Advanced</div>
@@ -958,19 +1034,145 @@
                         </div>
                         <div class="skill-card">
                             <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                                <div class="skill-icon"><i class="fab fa-microsoft"></i></div>
                                 <div>
-                                    <div class="skill-name">ERP Implementation</div>
+                                    <div class="skill-name">Office 365</div>
+                                    <div class="skill-level">Expert • Full Suite</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-check-circle"></i></div>
+                                <div>
+                                    <div class="skill-name">KYC Verification</div>
+                                    <div class="skill-level">Advanced • Automation</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                                <div>
+                                    <div class="skill-name">API Integration</div>
+                                    <div class="skill-level">Advanced • RESTful APIs</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                                <div>
+                                    <div class="skill-name">IAM (Identity & Access)</div>
+                                    <div class="skill-level">Advanced • Azure AD</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                                <div>
+                                    <div class="skill-name">SaaS / PaaS / IaaS</div>
+                                    <div class="skill-level">Advanced • Cloud Models</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                                <div>
+                                    <div class="skill-name">SDLC</div>
+                                    <div class="skill-level">Expert • Full Lifecycle</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fab fa-jira"></i></div>
+                                <div>
+                                    <div class="skill-name">JIRA</div>
+                                    <div class="skill-level">Advanced • Agile Project Tracking</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fab fa-confluence"></i></div>
+                                <div>
+                                    <div class="skill-name">Confluence</div>
+                                    <div class="skill-level">Advanced • Documentation</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                                <div>
+                                    <div class="skill-name">MS Project</div>
+                                    <div class="skill-level">Advanced • Scheduling & Planning</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core PM Competencies -->
+                <div>
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-clipboard-check"></i> Core PM Competencies
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-dollar-sign"></i></div>
+                                <div>
+                                    <div class="skill-name">Budget & Resource Planning</div>
+                                    <div class="skill-level">Expert • $5M+ Projects</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                                <div>
+                                    <div class="skill-name">Risk & Issue Management</div>
+                                    <div class="skill-level">Expert • PMP®</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-users"></i></div>
+                                <div>
+                                    <div class="skill-name">Stakeholder Management</div>
+                                    <div class="skill-level">Expert • C-Suite Level</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-exchange-alt"></i></div>
+                                <div>
+                                    <div class="skill-name">Change Management</div>
+                                    <div class="skill-level">Advanced • 90%+ Adoption</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-clipboard-list"></i></div>
+                                <div>
+                                    <div class="skill-name">Scope Management</div>
                                     <div class="skill-level">Expert</div>
                                 </div>
                             </div>
                         </div>
                         <div class="skill-card">
                             <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-lock"></i></div>
+                                <div class="skill-icon"><i class="fas fa-clock"></i></div>
                                 <div>
-                                    <div class="skill-name">KYC Verification & APIs</div>
-                                    <div class="skill-level">Advanced</div>
+                                    <div class="skill-name">Schedule Management</div>
+                                    <div class="skill-level">Expert</div>
                                 </div>
                             </div>
                         </div>
@@ -985,9 +1187,9 @@
                     <div class="skills-grid">
                         <div class="skill-card">
                             <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                                <div class="skill-icon"><i class="fas fa-cogs"></i></div>
                                 <div>
-                                    <div class="skill-name">Business Process Optimization</div>
+                                    <div class="skill-name">Process Optimization</div>
                                     <div class="skill-level">Expert • 30% Cost Reduction</div>
                                 </div>
                             </div>
@@ -1003,18 +1205,9 @@
                         </div>
                         <div class="skill-card">
                             <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-recycle"></i></div>
-                                <div>
-                                    <div class="skill-name">ITAD & Asset Management</div>
-                                    <div class="skill-level">Advanced • 4 Years</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
                                 <div class="skill-icon"><i class="fas fa-handshake"></i></div>
                                 <div>
-                                    <div class="skill-name">Vendor & Contract Management</div>
+                                    <div class="skill-name">Vendor Management</div>
                                     <div class="skill-level">Expert</div>
                                 </div>
                             </div>
@@ -1037,30 +1230,30 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="skill-card">
+                            <div class="skill-header">
+                                <div class="skill-icon"><i class="fas fa-star"></i></div>
+                                <div>
+                                    <div class="skill-name">Quality Assurance</div>
+                                    <div class="skill-level">Advanced</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Leadership & Soft Skills -->
                 <div>
                     <h3 class="skills-category-title">
-                        <i class="fas fa-users"></i> Leadership & Soft Skills
+                        <i class="fas fa-user-tie"></i> Leadership & Soft Skills
                     </h3>
                     <div class="skills-grid">
                         <div class="skill-card">
                             <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-user-tie"></i></div>
+                                <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
                                 <div>
                                     <div class="skill-name">Cross-Functional Leadership</div>
                                     <div class="skill-level">Expert • 15+ Team Management</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
-                                <div>
-                                    <div class="skill-name">Stakeholder Management</div>
-                                    <div class="skill-level">Expert • C-Suite Level</div>
                                 </div>
                             </div>
                         </div>
@@ -1077,7 +1270,7 @@
                             <div class="skill-header">
                                 <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
                                 <div>
-                                    <div class="skill-name">Problem Solving & Innovation</div>
+                                    <div class="skill-name">Problem Solving</div>
                                     <div class="skill-level">Expert</div>
                                 </div>
                             </div>
@@ -1086,7 +1279,7 @@
                             <div class="skill-header">
                                 <div class="skill-icon"><i class="fas fa-handshake-angle"></i></div>
                                 <div>
-                                    <div class="skill-name">Negotiation & Conflict Resolution</div>
+                                    <div class="skill-name">Negotiation</div>
                                     <div class="skill-level">Advanced</div>
                                 </div>
                             </div>
@@ -1095,34 +1288,7 @@
                             <div class="skill-header">
                                 <div class="skill-icon"><i class="fas fa-chalkboard-teacher"></i></div>
                                 <div>
-                                    <div class="skill-name">Team Mentoring & Coaching</div>
-                                    <div class="skill-level">Advanced</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Transferable Skills -->
-                <div>
-                    <h3 class="skills-category-title">
-                        <i class="fas fa-exchange-alt"></i> Transferable & Specialized Skills
-                    </h3>
-                    <div class="skills-grid">
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-bullseye"></i></div>
-                                <div>
-                                    <div class="skill-name">Strategic Planning & Execution</div>
-                                    <div class="skill-level">Expert</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-chart-pie"></i></div>
-                                <div>
-                                    <div class="skill-name">Data-Driven Decision Making</div>
+                                    <div class="skill-name">Team Mentoring</div>
                                     <div class="skill-level">Advanced</div>
                                 </div>
                             </div>
@@ -1133,33 +1299,6 @@
                                 <div>
                                     <div class="skill-name">Crisis Management</div>
                                     <div class="skill-level">Advanced</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-globe"></i></div>
-                                <div>
-                                    <div class="skill-name">Global Market Expansion</div>
-                                    <div class="skill-level">Advanced • UAE, India, Canada</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-user-check"></i></div>
-                                <div>
-                                    <div class="skill-name">Client Relationship Building</div>
-                                    <div class="skill-level">Expert</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-language"></i></div>
-                                <div>
-                                    <div class="skill-name">Multilingual Communication</div>
-                                    <div class="skill-level">English, Hindi, Gujarati</div>
                                 </div>
                             </div>
                         </div>
@@ -1573,7 +1712,7 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2025 Sujal Chauhan. All rights reserved. | Built with passion for excellence</p>
+            <p>&copy; 2025 Sujal Chauhan. All rights reserved.</p>
         </div>
     </footer>
 
@@ -1646,7 +1785,6 @@
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    // Animate counters
                     if (entry.target.hasAttribute('data-count') && entry.target.textContent === '0') {
                         animateCounter(entry.target);
                     }
@@ -1654,7 +1792,6 @@
             });
         }, observerOptions);
 
-        // Observe elements
         document.querySelectorAll('[data-count]').forEach(el => observer.observe(el));
 
         // Project filtering
@@ -1663,7 +1800,6 @@
 
         filterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
-                // Update active button
                 filterBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
 
@@ -1687,7 +1823,6 @@
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Get form data
             const formData = {
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
@@ -1695,21 +1830,15 @@
                 message: document.getElementById('message').value
             };
 
-            // Show success message
             formMessage.className = 'form-message success';
             formMessage.style.display = 'block';
             formMessage.textContent = 'Thank you for your message! I will get back to you soon.';
 
-            // Reset form
             contactForm.reset();
 
-            // Hide message after 5 seconds
             setTimeout(() => {
                 formMessage.style.display = 'none';
             }, 5000);
-
-            // In production, you would send this data to a backend service
-            console.log('Form submitted:', formData);
         });
 
         // Mobile menu toggle
@@ -1717,8 +1846,10 @@
         const navLinks = document.querySelector('.nav-links');
 
         mobileMenuBtn.addEventListener('click', () => {
-            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
             if (navLinks.style.display === 'flex') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'flex';
                 navLinks.style.flexDirection = 'column';
                 navLinks.style.position = 'absolute';
                 navLinks.style.top = '100%';
@@ -1730,7 +1861,6 @@
             }
         });
 
-        // Close mobile menu when clicking a link
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 if (window.innerWidth <= 968) {
@@ -1740,67 +1870,4 @@
         });
     </script>
 </body>
-</html>skill-icon"><i class="fas fa-tasks"></i></div>
-                                <div>
-                                    <div class="skill-name">Agile & Scrum Framework</div>
-                                    <div class="skill-level">Expert • CSM® Certified</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-certificate"></i></div>
-                                <div>
-                                    <div class="skill-name">PMP® Methodology</div>
-                                    <div class="skill-level">Expert • Certified</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-stream"></i></div>
-                                <div>
-                                    <div class="skill-name">Waterfall & SDLC</div>
-                                    <div class="skill-level">Advanced</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
-                                <div>
-                                    <div class="skill-name">Budget & Resource Planning</div>
-                                    <div class="skill-level">Expert • $5M+ Projects</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-exclamation-triangle"></i></div>
-                                <div>
-                                    <div class="skill-name">Risk & Issue Management</div>
-                                    <div class="skill-level">Expert</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="skill-icon"><i class="fas fa-sync-alt"></i></div>
-                                <div>
-                                    <div class="skill-name">Change Management</div>
-                                    <div class="skill-level">Advanced • 90%+ Adoption</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Technical & Cloud Skills -->
-                <div>
-                    <h3 class="skills-category-title">
-                        <i class="fas fa-cloud"></i> Technical & Cloud Expertise
-                    </h3>
-                    <div class="skills-grid">
-                        <div class="skill-card">
-                            <div class="skill-header">
-                                <div class="
+</html>
