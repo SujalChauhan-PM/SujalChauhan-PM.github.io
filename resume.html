@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal Chauhan - Resume</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+            background: white;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 15px;
+        }
+        .header h1 {
+            font-size: 24pt;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 5px;
+        }
+        .header .title {
+            font-size: 13pt;
+            color: #2563eb;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .contact-info {
+            font-size: 10pt;
+            color: #4b5563;
+        }
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 18px;
+        }
+        .section-title {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #1f2937;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .summary {
+            text-align: justify;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .skill-category {
+            margin-bottom: 8px;
+        }
+        .skill-category strong {
+            color: #1f2937;
+            font-size: 10.5pt;
+        }
+        .skill-category span {
+            font-size: 10pt;
+            color: #4b5563;
+        }
+        .experience-item {
+            margin-bottom: 15px;
+            page-break-inside: avoid;
+        }
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        .job-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #1f2937;
+        }
+        .company {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #2563eb;
+        }
+        .date-location {
+            font-size: 10pt;
+            color: #6b7280;
+            font-style: italic;
+        }
+        .achievements {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        .achievements li {
+            margin-bottom: 4px;
+            text-align: justify;
+            font-size: 10.5pt;
+            line-height: 1.4;
+        }
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+        .cert-item {
+            font-size: 10.5pt;
+            padding-left: 15px;
+            position: relative;
+        }
+        .cert-item::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-weight: bold;
+        }
+        .education-item {
+            margin-bottom: 8px;
+        }
+        .degree {
+            font-weight: 600;
+            font-size: 11pt;
+        }
+        .institution {
+            font-size: 10.5pt;
+            color: #4b5563;
+        }
+        @media print {
+            body {
+                padding: 0;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 24px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        .print-button:hover {
+            background: #1e40af;
+        }
+        strong {
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button no-print" onclick="window.print()">📄 Print / Save as PDF</button>
+    <div class="header">
+        <h1>SUJAL CHAUHAN</h1>
+        <div class="title">Project Manager | PMP® | CSM® | Azure Certified</div>
+        <div class="contact-info">
+            📍 Kitchener, Ontario, Canada | 📞 +1 (647) 667-9819 | 📧 <a href="mailto:sujal.chauhan@live.in">sujal.chauhan@live.in</a><br>
+            🔗 <a href="https://www.linkedin.com/in/sujalchauhan">linkedin.com/in/sujalchauhan</a> | 🌐 <a href="https://sujalchauhan-pm.github.io">sujalchauhan-pm.github.io</a>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            High-impact Project Manager with 15+ years of progressive leadership specializing in business process optimization, cloud transformation, and digital innovation. Proven track record of delivering $5M+ projects, driving 30% cost reductions, and leading cross-functional teams across banking, ITAD, and telecom sectors. Expert in Agile/Scrum methodologies, Azure cloud migrations, ERP implementations, and C-suite stakeholder management. PMP® and CSM® certified with demonstrated success in process automation (45% efficiency gains), zero-downtime cloud migrations (99.9% uptime), and change management initiatives (90%+ user adoption rates).
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Core Competencies</div>
+        <div class="skills-grid">
+            <div>
+                <div class="skill-category">
+                    <strong>Project Management:</strong><br>
+                    <span>Agile • Scrum • Kanban • Waterfall • Hybrid • Critical Path Method • Budget Planning ($5M+) • Risk Management • Stakeholder Management • Change Management • SDLC</span>
+                </div>
+                <div class="skill-category">
+                    <strong>Technology & Tools:</strong><br>
+                    <span>Microsoft Azure • SQL • Power BI • Dynamics 365 • Office 365 • JIRA • Confluence • MS Project • KYC Verification • API Integration • IAM • SaaS/PaaS/IaaS</span>
+                </div>
+            </div>
+            <div>
+                <div class="skill-category">
+                    <strong>Business & Operations:</strong><br>
+                    <span>Process Optimization • Digital Transformation • ERP Implementation • Vendor Management • Compliance & Governance • Quality Assurance • ITAD</span>
+                </div>
+                <div class="skill-category">
+                    <strong>Leadership:</strong><br>
+                    <span>Cross-Functional Team Leadership • Strategic Communication • Problem Solving • Negotiation • Mentoring • Crisis Management • Data-Driven Decision Making</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Project Manager</div>
+                    <div class="company">BigLop</div>
+                </div>
+                <div class="date-location">March 2025 - Present | Mississauga, ON</div>
+            </div>
+            <ul class="achievements">
+                <li><strong>Led $2.5M ERP transformation project</strong> replacing legacy banking platforms—managed cross-functional team of 12 members (IT, compliance, operations, finance) over 9-month timeline, delivering on-time and 5% under budget</li>
+                <li><strong>Executed zero-downtime Azure cloud migration</strong> of 12 business-critical applications serving 500+ users—coordinated with 3 vendor teams, managed $800K budget, achieved 99.9% system uptime in 6 months</li>
+                <li><strong>Automated KYC workflows</strong> using Azure Logic Apps reducing verification cycle time by 45% (5 days to 2.75 days)—led team of 3 developers, integrated 4 verification systems, processed 10,000+ onboardings in Q1</li>
+                <li><strong>Developed Power BI dashboards</strong> for C-suite tracking 15+ KPIs—reduced manual reporting by 40 hours/month, improved executive decision-making speed by 30%</li>
+                <li><strong>Established Agile delivery framework</strong>—delivered 26 sprints, improved team velocity by 25%, achieved 90%+ user adoption through 15 training sessions reaching 200+ employees</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Project Manager</div>
+                    <div class="company">Quantum Lifecycle Partners LP</div>
+                </div>
+                <div class="date-location">April 2021 - February 2025 | Brampton, ON</div>
+            </div>
+            <ul class="achievements">
+                <li><strong>Led end-to-end ITAD projects</strong> for 50+ enterprise clients—oversaw team of 8 logistics coordinators, processed $3M+ in asset value annually with 100% compliance</li>
+                <li><strong>Directed e-commerce website launch</strong> ($1.2M budget)—managed team of 6 over 8 months, resulting in 25% revenue increase ($500K additional annual revenue)</li>
+                <li><strong>Integrated Microsoft Dynamics 365 and CRM</strong>—coordinated BD team (10 members), production (15 staff), managed $400K budget and 5-month timeline</li>
+                <li><strong>Implemented Power BI dashboards</strong> with 20+ operational KPIs—improved forecasting accuracy by 30%, accelerated management decision-making by 25%</li>
+                <li><strong>Facilitated 45 Agile sprints</strong> over 3 years with IT (8), BD (10), and logistics teams (15)—reduced go-live timelines by 20%, improved on-time delivery to 92%</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Technical Support Supervisor</div>
+                    <div class="company">Teleperformance</div>
+                </div>
+                <div class="date-location">November 2019 - April 2021 | Toronto, ON</div>
+            </div>
+            <ul class="achievements">
+                <li><strong>Supervised team of 12-15 support agents</strong> handling 500+ daily customer interactions for Apple products—served as final escalation point, managed scheduling and QA</li>
+                <li><strong>Resolved 90%+ of 1,200+ escalated cases</strong> independently—reduced external intervention by 45%, increased customer retention by 15%, maintained 18-minute average resolution time</li>
+                <li><strong>Reduced resolution time by 20%</strong>—implemented 8 SOPs, conducted 50+ training workshops, created knowledge base with 150+ articles improving FCR from 72% to 87%</li>
+                <li><strong>Maintained 85%+ CSAT scores</strong> on supervisor interactions—managed 50+ crisis escalations, handled 200+ VIP accounts, achieved 92% satisfaction rating</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Project Manager</div>
+                    <div class="company">Progressive Telecom LLC</div>
+                </div>
+                <div class="date-location">January 2014 - September 2018 | Ahmedabad, India</div>
+            </div>
+            <ul class="achievements">
+                <li><strong>Led 30+ telecom interconnection projects</strong> across 15+ international markets—managed technical team of 6 engineers, budgets $200K-$800K, maintained 92% success rate with 85% on-time delivery</li>
+                <li><strong>Developed $12M+ bilateral agreements</strong> with global telecom providers—negotiated with carriers in 20+ countries, finalized 25+ contracts, increased company revenue by 40% YoY</li>
+                <li><strong>Managed BD team of 8 professionals</strong>—exceeded quarterly sales targets ($2M+) by average of 15%, achieved 95% target attainment rate over 4 years</li>
+                <li><strong>Led process improvement initiatives</strong>—reduced deployment time by 30% (180 to 126 days), improved customer satisfaction by 25%</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <div class="job-title">Carrier Relations Manager & Business Development</div>
+                    <div class="company">Axistel FZE, Spactron Limited, Bridgevoice Inc</div>
+                </div>
+                <div class="date-location">June 2009 - November 2013 | UAE & India</div>
+            </div>
+            <ul class="achievements">
+                <li><strong>Built international telecom carrier relations</strong> across UAE and India—managed 40+ carrier relationships, negotiated $8M+ in interconnection agreements</li>
+                <li><strong>Drove business expansion</strong>—onboarded 30+ new partners across 12 countries, contributed to 35% year-over-year company growth</li>
+                <li><strong>Exceeded revenue targets</strong> by 10-20% consistently—managed $15M+ revenue streams, optimized traffic routing improving margins by 15%, retained 95% of key clients</li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        <div class="certifications-grid">
+            <div class="cert-item"><strong>PMP®</strong> - Project Management Professional, PMI</div>
+            <div class="cert-item"><strong>CSM®</strong> - Certified ScrumMaster, Scrum Alliance</div>
+            <div class="cert-item"><strong>Microsoft Azure Fundamentals</strong> - Microsoft Certified</div>
+            <div class="cert-item"><strong>Salesforce for Customer Service</strong></div>
+            <div class="cert-item"><strong>SDLC</strong> - Software Development Life Cycle</div>
+            <div class="cert-item"><strong>Waterfall Project Management Fundamentals</strong></div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="education-item">
+            <div class="degree">Bachelor of Business Management (BBM) - Business Administration and Management</div>
+            <div class="institution">Mangalam School of Management and Technology | 2013 - 2016</div>
+        </div>
+        <div class="education-item">
+            <div class="degree">Diploma in International Marketing</div>
+            <div class="institution">Ahmedabad Management Association | 2013</div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title">Languages</div>
+        <div style="font-size: 10.5pt;">
+            <strong>English:</strong> Full Professional Proficiency | <strong>Hindi:</strong> Full Professional Proficiency | <strong>Gujarati:</strong> Native/Bilingual
+        </div>
+    </div>
+</body>
+</html>
